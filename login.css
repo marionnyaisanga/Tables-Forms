@@ -78,6 +78,7 @@ body{
     border: none;
     height: 30px;
     border-radius: 5px;
+    text-decoration: none;
 }
 #welcome{
     text-align: center;

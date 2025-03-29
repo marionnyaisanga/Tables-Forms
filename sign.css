@@ -2,6 +2,7 @@ body{
     background-image: url("https://media.istockphoto.com/id/1266776339/photo/abstract-3d-art-background-with-curve-shape-holographic-color.jpg?s=612x612&w=0&k=20&c=utghpC7P4XkkD8Azz6YaR8pSDUaSAocQzKK_TqCz0bs=");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .form{
     border: solid 1px white;
@@ -11,6 +12,7 @@ body{
     height: 659px;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
+
     
 
 }
@@ -22,6 +24,7 @@ body{
     size: 50px 60px;
     margin: 0 auto;
     border-radius: 50px;
+    margin-top: 5%;
 
 
 }
@@ -78,6 +81,7 @@ form #checkbox{
 form #check{
     margin-left: 7%;
     margin-top: -5.5%;
+    font-size: small;
 }
 .option-button #google{
     margin-right:15% ;
@@ -97,14 +101,19 @@ form #check{
 }
 #login b{
     color: blueviolet;
+    text-decoration: none;
 }
 #check b{
     color: blueviolet;
+    text-decoration: none;
+    
 }
 .form #get-started{
     text-align: center;
     margin-top: -5%;
+    font-size: small;
 }
 .form h1{
     text-align: center;
+    
 }
