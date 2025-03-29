@@ -1,0 +1,110 @@
+body{
+    background-image: url("https://media.istockphoto.com/id/1266776339/photo/abstract-3d-art-background-with-curve-shape-holographic-color.jpg?s=612x612&w=0&k=20&c=utghpC7P4XkkD8Azz6YaR8pSDUaSAocQzKK_TqCz0bs=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form{
+    border: solid 1px white;
+    width: 50%;
+    background-color: rgb(248, 252, 252);
+    padding: 30px;
+    height: 659px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+
+}
+
+.container{
+    display: flex;
+    width: 900px;
+    height: fit-content;
+    size: 50px 60px;
+    margin: 0 auto;
+    border-radius: 50px;
+
+
+}
+.signup-button button{
+    width: 100%;
+    color: antiquewhite;
+    background-color: rgb(163, 69, 182);
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+.form input{
+    width: 95%;
+    height: 15px;
+
+    
+}
+.lines{
+    position:relative;
+    margin:20px auto;
+    text-align: center;
+    color: #757272;
+
+}
+.lines:before{
+    content:" ";
+    display: block;
+    height: 1px;
+    width: 135px;
+    position: absolute;
+    top: 50%;
+    left:0;
+    background-color: hsl(300, 4%, 74%);
+    
+
+}
+.lines:after{
+    content:" ";
+    display:block;
+    height: 1px;
+    width: 140px;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    right: 0%;
+    background-color: rgb(185, 179, 179);
+}
+
+form #checkbox{
+    margin-left: -45%;
+}
+form #check{
+    margin-left: 7%;
+    margin-top: -5.5%;
+}
+.option-button #google{
+    margin-right:15% ;
+    width: 150px;
+}
+.option-button #facebook{
+    width: 150px;
+    margin-left:5% ;
+}
+.option-button{
+    border-radius: 5px;
+}
+#login{
+    margin-bottom: -7%;
+    text-align: center;
+    
+}
+#login b{
+    color: blueviolet;
+}
+#check b{
+    color: blueviolet;
+}
+.form #get-started{
+    text-align: center;
+    margin-top: -5%;
+}
+.form h1{
+    text-align: center;
+}
